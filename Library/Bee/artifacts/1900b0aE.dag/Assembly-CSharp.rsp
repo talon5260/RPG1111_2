@@ -393,6 +393,7 @@
 "Assets/Cat_dots/Scripts/Animator_Test.cs"
 "Assets/Script/EnemyMove.cs"
 "Assets/Script/GameManager.cs"
+"Assets/Script/InventoryUi.cs"
 "Assets/Script/ObjectData.cs"
 "Assets/Script/PlayerAction.cs"
 "Assets/Script/Restart.cs"

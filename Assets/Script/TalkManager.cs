@@ -19,11 +19,14 @@ public class TalkManager : MonoBehaviour
     {
         talkData.Add(11, new string[] { "...zzZ:0", "...zzZ?:0" });
         talkData.Add(12, new string[]{"Ah...?:1", "Ahchoo!!:0" });
+        talkData.Add(14, new string[] { "¹»ºÁ?:0", "¸»ÇÏ´Â °í¾çÀÌ Ã³À½ º¸³ª?:0", "±ÍÂú°Ô ±¼Áö ¸»°í ¾ó¸¥ ²¨ÁöÁö?:0" });
         talkData.Add(101, new string[] { "Warning / Dungeon Trap" });
 
         portraitData.Add(11 +0, portraitArr[0]);
         portraitData.Add(12 +0, portraitArr[1]);
         portraitData.Add(12 +1, portraitArr[2]);
+        portraitData.Add(14 +0, portraitArr[3]);
+
     }
     public string GetTalk(int id, int talkIndex)
     {

@@ -11,6 +11,7 @@ public class Restart : MonoBehaviour
    
     public void gamestart()
     {
+       //Time.timeScale = 1;
         SceneManager.LoadScene("Scene1");
     }
 }

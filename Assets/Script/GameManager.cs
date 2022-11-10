@@ -8,7 +8,8 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public GameObject talkPanel;
-    public TextMeshProUGUI talkText;
+    public Text talkText;
+    
     public GameObject scanObject;
     public PlayerAction player;
     public TalkManager talkManager;
